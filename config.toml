@@ -1,4 +1,4 @@
 baseURL = 'http://fahoom.github.io/'
 languageCode = 'en-us'
-title = 'Fahoom's Blog'
+title = "Fahoom's Blog"
 theme = 'PaperMod'
