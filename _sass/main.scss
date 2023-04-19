@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,200&display=swap);
+
+:root {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Source Serif Pro', serif;
+   // height: 100%;
+}
+
+body {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    h1 {
+        margin-right: auto;
+    }
+
+    a {
+        padding: 5px 10px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        transition: color 1s;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;    
+    a {
+        text-decoration: underline;
+        color: inherit;
+    }
+    
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .post {
+        h2 {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        summary {
+            padding: 0px;
+            margin: 0px;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+        }
+
+        background-color: rgba(255, 255, 255, 0.12);
+        padding: 15px;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        border-radius: 50%;
+    }
+
+    .social {
+        display: flex;
+        gap: 30px;
+        a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: underline;
+        }
+    }
+}
+
+header {
+    .post-title {
+        font-size: 7vh;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .post-date {
+        font-style: italic;
+        padding: 0px;
+        margin: 0px;
+    }
+    margin-bottom: 15px;
+}
+
+main {
+    height: 100%;
+    margin-bottom: 50px;
+}
+

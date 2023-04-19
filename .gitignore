@@ -1,0 +1,5 @@
+Gemfile.lock
+ignore/
+_site/
+.jekyll-cache/
+.jekyll-metadata/
