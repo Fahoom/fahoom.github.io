@@ -1,0 +1,9 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+
+/* External Style Sheets */
+@import url('https://latex.now.sh/style.css');
+
+.pfp {
+	border-radius: 50%;
+}
